@@ -1,4 +1,5 @@
 import img from './assets/curator-background.png'
+import ChatBot from './components/ChatBot';
 
 function App() {
   const container = {
@@ -8,7 +9,9 @@ function App() {
   };
 
   return (
-    <div style={container}></div>
+    <div style={container}>
+      <ChatBot/>
+    </div>
   );
 }
 
